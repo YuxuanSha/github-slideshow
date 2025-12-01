@@ -1,0 +1,472 @@
+{
+  "prd_checklist": {
+    "metadata": {
+      "version": "1.0.0",
+      "last_updated": "2025-01-01",
+      "description": "PRD完整性检查清单，用于验证PRD文档是否包含所有必要的部分"
+    },
+    "sections": [
+      {
+        "id": "1",
+        "name": "产品概述",
+        "priority": "必须",
+        "items": [
+          {
+            "id": "1.1",
+            "name": "产品名称和定位",
+            "required": true,
+            "description": "清晰的产品名称和简洁的定位描述"
+          },
+          {
+            "id": "1.2",
+            "name": "产品愿景",
+            "required": true,
+            "description": "产品的长期目标和价值主张"
+          },
+          {
+            "id": "1.3",
+            "name": "目标用户",
+            "required": true,
+            "description": "明确的用户画像和使用场景"
+          },
+          {
+            "id": "1.4",
+            "name": "核心问题",
+            "required": true,
+            "description": "产品要解决的主要用户痛点"
+          },
+          {
+            "id": "1.5",
+            "name": "价值主张",
+            "required": true,
+            "description": "产品如何为用户创造价值"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "市场分析",
+        "priority": "必须",
+        "items": [
+          {
+            "id": "2.1",
+            "name": "市场机会",
+            "required": true,
+            "description": "市场规模、增长趋势、市场空白"
+          },
+          {
+            "id": "2.2",
+            "name": "竞品分析",
+            "required": true,
+            "description": "主要竞争对手及其优劣势对比"
+          },
+          {
+            "id": "2.3",
+            "name": "差异化优势",
+            "required": true,
+            "description": "产品的独特价值和竞争壁垒"
+          },
+          {
+            "id": "2.4",
+            "name": "商业模式",
+            "required": false,
+            "description": "如何创造和获取价值"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "用户研究",
+        "priority": "必须",
+        "items": [
+          {
+            "id": "3.1",
+            "name": "用户画像",
+            "required": true,
+            "description": "详细的用户特征、需求、行为模式"
+          },
+          {
+            "id": "3.2",
+            "name": "用户旅程",
+            "required": true,
+            "description": "用户从发现到使用的完整路径"
+          },
+          {
+            "id": "3.3",
+            "name": "用户故事",
+            "required": true,
+            "description": "以用户角色-功能-价值格式描述的需求"
+          },
+          {
+            "id": "3.4",
+            "name": "痛点分析",
+            "required": true,
+            "description": "当前解决方案的不足之处"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "功能规划",
+        "priority": "必须",
+        "items": [
+          {
+            "id": "4.1",
+            "name": "功能架构图",
+            "required": true,
+            "description": "产品的功能模块结构和层级关系"
+          },
+          {
+            "id": "4.2",
+            "name": "核心功能清单",
+            "required": true,
+            "description": "MVP必需的关键功能列表"
+          },
+          {
+            "id": "4.3",
+            "name": "功能优先级",
+            "required": true,
+            "description": "使用MoSCoW或P0-P3方法标注优先级"
+          },
+          {
+            "id": "4.4",
+            "name": "功能详细说明",
+            "required": true,
+            "description": "每个核心功能的输入、处理、输出和边界条件"
+          },
+          {
+            "id": "4.5",
+            "name": "功能流程图",
+            "required": true,
+            "description": "关键功能的业务流程图"
+          },
+          {
+            "id": "4.6",
+            "name": "功能依赖关系",
+            "required": false,
+            "description": "功能之间的关联和依赖"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "产品原型",
+        "priority": "必须",
+        "items": [
+          {
+            "id": "5.1",
+            "name": "信息架构",
+            "required": true,
+            "description": "产品的页面结构和导航逻辑"
+          },
+          {
+            "id": "5.2",
+            "name": "界面原型图",
+            "required": true,
+            "description": "关键页面的视觉布局（可使用Mermaid/ASCII/描述）"
+          },
+          {
+            "id": "5.3",
+            "name": "用户流程图",
+            "required": true,
+            "description": "用户操作的完整流程"
+          },
+          {
+            "id": "5.4",
+            "name": "交互说明",
+            "required": true,
+            "description": "用户操作和系统响应的详细说明"
+          },
+          {
+            "id": "5.5",
+            "name": "设计规范",
+            "required": false,
+            "description": "UI组件、颜色、字体、间距等规范"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "技术要求",
+        "priority": "必须",
+        "items": [
+          {
+            "id": "6.1",
+            "name": "技术架构",
+            "required": true,
+            "description": "系统架构图和技术栈选择"
+          },
+          {
+            "id": "6.2",
+            "name": "技术栈",
+            "required": true,
+            "description": "前端、后端、数据库、基础设施技术选型"
+          },
+          {
+            "id": "6.3",
+            "name": "数据模型",
+            "required": true,
+            "description": "核心数据实体和关系（ER图）"
+          },
+          {
+            "id": "6.4",
+            "name": "性能要求",
+            "required": true,
+            "description": "响应时间、并发量、可用性等指标"
+          },
+          {
+            "id": "6.5",
+            "name": "安全要求",
+            "required": true,
+            "description": "数据安全、隐私保护、权限控制"
+          },
+          {
+            "id": "6.6",
+            "name": "集成需求",
+            "required": false,
+            "description": "第三方服务、API、数据对接"
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "name": "成功指标",
+        "priority": "必须",
+        "items": [
+          {
+            "id": "7.1",
+            "name": "关键指标（KPI）",
+            "required": true,
+            "description": "可量化的成功标准"
+          },
+          {
+            "id": "7.2",
+            "name": "用户指标",
+            "required": true,
+            "description": "DAU/MAU、留存率、转化率等"
+          },
+          {
+            "id": "7.3",
+            "name": "业务指标",
+            "required": true,
+            "description": "收入、利润、市场份额等"
+          },
+          {
+            "id": "7.4",
+            "name": "产品指标",
+            "required": true,
+            "description": "功能使用率、用户满意度等"
+          },
+          {
+            "id": "7.5",
+            "name": "北极星指标",
+            "required": false,
+            "description": "最重要的核心指标"
+          },
+          {
+            "id": "7.6",
+            "name": "A/B测试计划",
+            "required": false,
+            "description": "需要验证的假设和测试设计"
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "name": "项目规划",
+        "priority": "必须",
+        "items": [
+          {
+            "id": "8.1",
+            "name": "开发里程碑",
+            "required": true,
+            "description": "按阶段划分的交付目标"
+          },
+          {
+            "id": "8.2",
+            "name": "版本规划",
+            "required": true,
+            "description": "MVP和后续版本的功能规划"
+          },
+          {
+            "id": "8.3",
+            "name": "时间线",
+            "required": true,
+            "description": "开发时间表（可使用甘特图）"
+          },
+          {
+            "id": "8.4",
+            "name": "资源需求",
+            "required": true,
+            "description": "人力、预算、工具和设备"
+          },
+          {
+            "id": "8.5",
+            "name": "风险识别",
+            "required": true,
+            "description": "潜在风险及应对策略"
+          },
+          {
+            "id": "8.6",
+            "name": "发布计划",
+            "required": true,
+            "description": "Beta测试、灰度发布、全量上线计划"
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "name": "附录",
+        "priority": "推荐",
+        "items": [
+          {
+            "id": "9.1",
+            "name": "术语表",
+            "required": false,
+            "description": "专业术语和缩写的定义"
+          },
+          {
+            "id": "9.2",
+            "name": "参考资料",
+            "required": false,
+            "description": "市场报告、竞品文档、用户访谈记录等"
+          },
+          {
+            "id": "9.3",
+            "name": "变更历史",
+            "required": false,
+            "description": "文档版本和修改记录"
+          }
+        ]
+      }
+    ],
+    "quality_checks": [
+      {
+        "category": "清晰性",
+        "checks": [
+          "是否使用简洁明了的语言，避免歧义？",
+          "是否所有需求都有明确的定义？",
+          "是否使用\"必须\"、\"应该\"、\"可以\"来表示优先级？"
+        ]
+      },
+      {
+        "category": "完整性",
+        "checks": [
+          "是否涵盖了产品的所有关键方面？",
+          "是否包含正常流程和异常情况的处理？",
+          "是否提供了足够的上下文信息？"
+        ]
+      },
+      {
+        "category": "可验证性",
+        "checks": [
+          "每个需求是否都可以测试和验证？",
+          "是否提供了明确的验收标准？",
+          "是否使用量化指标而非模糊描述？"
+        ]
+      },
+      {
+        "category": "可追溯性",
+        "checks": [
+          "需求是否与业务目标对应？",
+          "功能是否与用户故事关联？",
+          "是否保持版本历史和变更记录？"
+        ]
+      },
+      {
+        "category": "视觉化",
+        "checks": [
+          "是否使用图表、原型图增强理解？",
+          "复杂流程是否用流程图表示？",
+          "数据关系是否用ER图展现？",
+          "界面是否有线框图或原型图？"
+        ]
+      }
+    ],
+    "prototype_methods": [
+      {
+        "method": "Mermaid图表",
+        "use_cases": [
+          "用户流程 - Flowchart",
+          "系统交互 - Sequence Diagram",
+          "状态变化 - State Diagram",
+          "数据模型 - ER Diagram",
+          "项目规划 - Gantt Chart",
+          "系统架构 - Component Diagram"
+        ]
+      },
+      {
+        "method": "ASCII艺术",
+        "use_cases": [
+          "移动端界面布局",
+          "Web端页面结构",
+          "表单设计",
+          "简单的交互流程"
+        ]
+      },
+      {
+        "method": "详细界面描述",
+        "use_cases": [
+          "复杂交互说明",
+          "页面布局细节",
+          "响应式设计",
+          "无障碍要求"
+        ]
+      }
+    ],
+    "common_mistakes": [
+      {
+        "mistake": "功能描述模糊",
+        "example": "提供良好的用户体验",
+        "fix": "使用具体的、可测量的描述，如\"页面加载时间<2秒\""
+      },
+      {
+        "mistake": "缺少用户视角",
+        "example": "系统需要一个数据库",
+        "fix": "从用户角度描述：\"用户可以保存和检索历史记录\""
+      },
+      {
+        "mistake": "没有优先级",
+        "example": "所有功能都标记为重要",
+        "fix": "明确区分P0（必须）、P1（应该）、P2（可以）功能"
+      },
+      {
+        "mistake": "缺少异常处理",
+        "example": "只描述成功路径",
+        "fix": "考虑错误、超时、边界情况的处理"
+      },
+      {
+        "mistake": "没有验收标准",
+        "example": "实现登录功能",
+        "fix": "提供具体的验收标准清单"
+      },
+      {
+        "mistake": "缺少视觉呈现",
+        "example": "纯文字描述界面",
+        "fix": "使用原型图、流程图、ER图等可视化工具"
+      }
+    ],
+    "recommended_tools": [
+      {
+        "category": "原型设计",
+        "tools": ["Figma", "Sketch", "Adobe XD", "Mermaid", "ASCII艺术"]
+      },
+      {
+        "category": "流程图",
+        "tools": ["Mermaid", "Draw.io", "Lucidchart", "Whimsical"]
+      },
+      {
+        "category": "协作文档",
+        "tools": ["Notion", "Confluence", "Google Docs", "Markdown"]
+      },
+      {
+        "category": "项目管理",
+        "tools": ["Jira", "Linear", "Asana", "Trello"]
+      },
+      {
+        "category": "用户研究",
+        "tools": ["UserTesting", "Hotjar", "Maze", "Lookback"]
+      }
+    ]
+  }
+}
